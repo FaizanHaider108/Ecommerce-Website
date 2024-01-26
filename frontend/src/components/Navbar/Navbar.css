@@ -13,8 +13,9 @@
 
 .nav-logo p {
     color: #171717;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
+    font-family: "Lora", serif;
 }
 
 .nav-menu {
@@ -42,7 +43,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: rgb(29, 4, 4);
 }
 
 .nav-login-cart {
@@ -79,6 +80,6 @@
     border-radius: 11px;
     font-size: 14px;
     color: white;
-    background: red;
+    background: rgb(29, 4, 4);
     margin-left: -55px;
 }
