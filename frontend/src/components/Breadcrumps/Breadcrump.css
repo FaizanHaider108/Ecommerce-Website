@@ -8,3 +8,38 @@
     margin: 60px 170px;
     text-transform: capitalize;
 }
+
+@media(max-width: 1280px){
+    .Breadcrump{
+        margin: 30px 50px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media(max-width: 1024px){
+    .Breadcrump{
+        margin: 30px 30px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media(max-width: 800px){
+    .Breadcrump{
+        margin: 30px 10px;
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 500px){
+    .Breadcrump{
+     
+        font-size: 10px;
+    }
+}
+

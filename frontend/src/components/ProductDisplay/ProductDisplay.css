@@ -105,3 +105,252 @@
     font-weight: 600;
 
 }
+
+
+@media(max-width:1280px){
+    .productDisplay{
+        margin: 0px 60px;
+    }
+
+    .productDisplay-left{
+        gap: 10px;
+    }
+
+    .productDiplay-img-list{
+        gap: 10px;
+    }
+    .productDiplay-img-list img{
+        height: 120px;
+    }
+
+    .productdisplay-main-img {
+        width: auto;
+        height: 510px;
+    }
+
+    .productDisplay-right{
+        margin: 0px 30px;
+    }
+
+    .productDisplay-right h1{
+        font-size: 22px;
+    }
+
+    .propduct-display-right-stars{
+        gap: 3px;
+        font-size: 13px;
+    }
+
+    .product-display-right-prices{
+        padding: 10px 0px;
+        font-size: 18px;
+    }
+
+    .productdisplay-right-des{
+        font-size: 13px;
+    }
+
+    .productDiplay-right-size h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .productDiplay-right-size div{
+        padding: 14px 20px;
+    }
+
+    .productDisplay-right button{
+        width: 150px;
+        padding: 15px 0px;
+        font-size: 20px;
+    }
+
+    .preoductDiaplay-right-category{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 1040px){
+    .productDisplay{
+        margin: 0px 60px;
+    }
+
+    .productDisplay-left{
+        gap: 5px;
+    }
+
+  
+    .productDiplay-img-list img{
+        height: 80px;
+    }
+
+    .productdisplay-main-img {
+        height: 350px;
+    }
+
+    .productDisplay-right{
+        margin: 0px 30px;
+    }
+
+    .productDisplay-right h1{
+        font-size: 18px;
+    }
+
+    .propduct-display-right-stars img{
+        width: 15px;
+    }
+
+
+    .productdisplay-right-des{
+        font-size: 12px;
+    }
+    .productDiplay-right-size{
+        margin-top: 10px 16px;
+     
+    }
+    .productDiplay-right-size div{
+        padding: 14px 20px;
+        font-size: 12px;
+    }
+
+    .productDisplay-right button{
+        width: 120px;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .preoductDiaplay-right-category{
+        font-size: 12px;
+    }
+
+
+}
+
+
+@media(max-width: 800px){
+    .productDisplay{
+        margin: 0px 10px;
+    }
+
+    .productDisplay-left{
+        gap: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+  .productDiplay-img-list{
+    flex-direction: row;
+  } 
+    .productDiplay-img-list img{
+        height: 70px;
+    }
+
+    .productdisplay-main-img {
+        height: 300px;
+    }
+
+    .productDisplay-right{
+        margin: 0px 30px;
+    }
+
+    .productDisplay-right h1{
+        font-size: 14px;
+    }
+
+    .propduct-display-right-stars img{
+        width: 12px;
+    }
+
+
+    .productdisplay-right-des{
+        font-size: 10px;
+    }
+
+    .productDiplay-right-size h1{
+        margin-top: 10px;
+    }
+    .productDiplay-right-size{
+        margin-top: 10px;
+        gap: 5px;
+     
+    }
+    .productDiplay-right-size div{
+        padding: 4px 11px;
+        /* font-size: 12px; */
+    }
+
+    .productDisplay-right button{
+        width: 100px;
+       font-size: 12px;
+    }
+
+    .preoductDiaplay-right-category{
+        font-size: 10px;
+    }
+
+
+}
+
+
+
+@media(max-width: 500px){
+    .productDisplay{
+        flex-direction: column;
+    }
+
+    .productDisplay-left{
+        flex-direction: row;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .productDiplay-img-list{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .productDiplay-img-list img{
+        height: 75px;
+    }
+
+    .productdisplay-main-img{
+        height: 330px;
+    }
+
+    .productDisplay-right h1{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 500;
+     }
+
+    .propduct-display-right-stars img{
+            width: 15px;
+    }
+
+    .productDiplay-right-size {
+        gap: 15px;
+        margin: 20px 0px;
+    }
+
+    .productDiplay-right-size div{
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .productDisplay-right button{
+        width: 130px;
+        font-size: 15px;
+        padding: 12px 0px;
+     }
+
+     .preoductDiaplay-right-category{
+        font-size: 16px;
+     }
+}
