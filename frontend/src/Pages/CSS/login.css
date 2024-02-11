@@ -3,6 +3,9 @@
     background: rgb(29, 4, 4);
     padding: 100px;
 }
+.loginSignup-login{
+    cursor: pointer;
+}
 
 .loginSighup-container {
     width: 580px;
