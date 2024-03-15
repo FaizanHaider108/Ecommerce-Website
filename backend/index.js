@@ -6,13 +6,13 @@ const cors = require("cors");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
 const path = require("path");
-
+const env = require("dotenv").config()
 // Use app
 app.use(express.json());
 app.use(cors());
 
 // Connection to the database
-mongoose.connect("mongodb+srv://fiver1faizan:fiver1faizanhaider@cluster0.gsunmwk.mongodb.net/test", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGO_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // API Creation
 
